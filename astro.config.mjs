@@ -8,9 +8,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 import { manifest } from './src/utils/manifest';
 
-// https://astro.build/config
 export default defineConfig({
-  site: 'http://localhost:4322/',
+  site: 'https://goodfirstissue.show',
   image: {
     remotePatterns: [{ protocol: 'https' }],
   },

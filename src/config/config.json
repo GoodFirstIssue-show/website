@@ -1,25 +1,25 @@
 {
   "site": {
-    "title": "EV0 ",
-    "base_url": "https://ev0.gndx.io",
+    "title": "GoodFirstIssue",
+    "base_url": "https://goodfirstissue.show",
     "base_path": "/",
     "favicon": "/favicon.png",
-    "logo": "https://s3.amazonaws.com/gndx.dev/ev0-astro-logo.png",
+    "logo": "/logo.jpg",
     "lang": "en",
-    "description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript.",
+    "description": "GoodFirstIssue is a video podcast where we meet open-source maintainers to peek into their projects",
     "pageSize": 6
   },
   "features": {
-    "youtube": true,
+    "youtube": false,
     "dark_mode": true
   },
   "metadata": {
-    "meta_author": "Oscar Barajas @gndx",
-    "meta_description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "meta_author": "Federico Gerardi (Azraelsec) & Luca Corbucci",
+    "meta_description": "GoodFirstIssue is a video podcast where we meet open-source maintainers to peek into their projects"
   },
   "author": {
-    "name": "Oscar Barajas Tavares @gndx",
-    "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
-    "bio": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "name": "GoodFirstIssue",
+    "avatar": "/logo.jpg",
+    "bio": "GoodFirstIssue is a video podcast where we meet open-source maintainers to peek into their projects"
   }
 }

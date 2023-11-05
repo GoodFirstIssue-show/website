@@ -20,7 +20,6 @@ const __dirname = dirname(__filename);
 
 // @ts-check
 
-
 // https://astro.build/config
 
 // https://astro.build/config
@@ -29,7 +28,8 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   // outDir: './dist',       // When running `astro build`, path to final static output
   // publicDir: './public',   // A folder of static files Astro will copy to the root. Useful for favicons, images, and other files that don’t need processing.
   output: 'server',
-  site: 'https://astro-ink.vercel.app',
+  site: 'https://astronaut.github.io',
+  base: '/website',
   // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
   server: {
     // port: 3000,         // The port to run the dev server on.
